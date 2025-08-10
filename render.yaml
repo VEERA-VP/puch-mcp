@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: puch-mcp-ems
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python puch_mcp.py
+    envVars:
+      - key: AUTH_TOKEN
+        value: Q4v@8gP1zL#xD2mV!tN3rB7k
+      - key: MY_NUMBER
+        value: 919840499661

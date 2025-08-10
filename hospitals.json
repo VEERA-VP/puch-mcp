@@ -1,0 +1,37 @@
+[
+  {
+    "name": "AIIMS Delhi",
+    "lat": 28.5672,
+    "lng": 77.21,
+    "ambulance_phone": "+911126593242",
+    "phone": "+911126593242"
+  },
+  {
+    "name": "Apollo Hospitals Chennai",
+    "lat": 13.0635,
+    "lng": 80.2435,
+    "ambulance_phone": "+914428222000",
+    "phone": "+914428222000"
+  },
+  {
+    "name": "KEM Hospital Mumbai",
+    "lat": 18.9786,
+    "lng": 72.8361,
+    "ambulance_phone": "+912224130000",
+    "phone": "+912224130000"
+  },
+  {
+    "name": "Manipal Hospital Bangalore",
+    "lat": 12.9592,
+    "lng": 77.6441,
+    "ambulance_phone": "+918067290000",
+    "phone": "+918067290000"
+  },
+  {
+    "name": "PGIMER Chandigarh",
+    "lat": 30.76,
+    "lng": 76.773,
+    "ambulance_phone": "+911722747585",
+    "phone": "+911722747585"
+  }
+]
