@@ -9,8 +9,8 @@ from mcp.server.auth.provider import AccessToken
 from pydantic import BaseModel, Field
 
 load_dotenv()
-AUTH_TOKEN = os.environ.get("AUTH_TOKEN", "Q4v@8gP1zL#xD2mV!tN3rB7k")
-MY_NUMBER = os.environ.get("MY_NUMBER", "919840499661")
+AUTH_TOKEN = os.environ.get("AUTH_TOKEN")
+MY_NUMBER = os.environ.get("MY_NUMBER")
 
 if not AUTH_TOKEN:
     raise RuntimeError("AUTH_TOKEN not set")
